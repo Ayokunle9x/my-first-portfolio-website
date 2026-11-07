@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Salawu Abdulhameed, a developer building thoughtful web interfaces and backend projects." />
+  <title>Salawu Abdulhameed | Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#home">SA<span>.</span></a>
+    <nav id="nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" aria-label="Open navigation" aria-controls="nav" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">WEB DEVELOPMENT · SOFTWARE ENGINEERING</p>
+        <h1>Hi, I'm <span>Salawu Abdulhameed.</span></h1>
+        <p class="hero-text">
+          I build responsive websites and backend foundations, turning ideas
+          into practical projects one thoughtful detail at a time.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View my work <span>↗</span></a>
+          <a class="btn secondary" href="#contact">Let's connect</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="orb"></div>
+        <div class="code-window">
+          <div class="dots"><i></i><i></i><i></i></div>
+          <pre><code><span class="purple">const</span> developer = {
+  name: <span class="green">"Salawu"</span>,
+  role: <span class="green">"Web Developer"</span>,
+  learning: [
+    <span class="green">"Frontend"</span>,
+    <span class="green">"Backend"</span>,
+    <span class="green">"Databases"</span>
+  ],
+  mindset: <span class="green">"Keep building."</span>
+};</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-label">01 <span>/</span> ABOUT</div>
+      <div>
+        <h2>Building today,<br><span>growing every day.</span></h2>
+        <p>
+          I'm Salawu Abdulhameed, a developer interested in the full web stack.
+          I enjoy creating useful, responsive interfaces and learning how the systems
+          behind them fit together.
+        </p>
+        <p>
+          Each project is a chance to explore a technology more deeply, solve a practical
+          problem, and keep growing as an engineer.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-label">02 <span>/</span> TOOLKIT</div>
+      <div>
+        <h2>My current <span>toolkit.</span></h2>
+        <div class="skill-grid">
+          <div class="skill"><b>HTML</b><span>Structure & semantics</span></div>
+          <div class="skill"><b>CSS</b><span>Responsive interfaces</span></div>
+          <div class="skill"><b>JavaScript</b><span>Web functionality</span></div>
+          <div class="skill"><b>React</b><span>Component-based UI</span></div>
+          <div class="skill"><b>Node.js</b><span>Backend development</span></div>
+          <div class="skill"><b>Git & GitHub</b><span>Version control</span></div>
+        </div>
+        <p class="muted">A growing toolkit, put to work through hands-on projects.</p>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-label">03 <span>/</span> SELECTED WORK</div>
+      <div>
+        <h2>Projects with<br><span>purpose.</span></h2>
+        <p class="projects-intro">A selection of backend and interface work from my ongoing development journey.</p>
+        <div class="project-grid">
+          <article class="project-card featured">
+            <div class="project-art node-art" aria-hidden="true"><span>NF</span><i></i><i></i><i></i></div>
+            <div class="project-content">
+              <div class="project-topline"><span class="project-number">01</span><p class="project-status">BACKEND · NODE.JS</p></div>
+              <h3>NodeForge: A Node.js Backend Foundation</h3>
+              <p>
+                A backend-focused project built to strengthen core Node.js fundamentals, covering
+                server-side architecture, API patterns, and practical application development.
+              </p>
+              <div class="project-tags"><span>Node.js</span><span>Backend</span><span>API</span></div>
+              <a class="project-link" href="https://github.com/Ayokunle9x/NodeForge-A-Node.js-Backend-Foundation" target="_blank" rel="noreferrer">View project <span>↗</span></a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-art netflix-art" aria-hidden="true"><span>N</span><i></i><i></i></div>
+            <div class="project-content">
+              <div class="project-topline"><span class="project-number">02</span><p class="project-status">FRONTEND · UI BUILD</p></div>
+              <h3>Netflix Sign-Up Page</h3>
+              <p>
+                A responsive sign-up page inspired by Netflix’s interface, focused on polished visual design,
+                layout structure, and front-end interaction details.
+              </p>
+              <div class="project-tags"><span>HTML</span><span>CSS</span><span>Responsive UI</span></div>
+              <a class="project-link" href="https://github.com/Ayokunle9x/Netflix-sign-up-page" target="_blank" rel="noreferrer">View project <span>↗</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-label">04 <span>/</span> CONTACT</div>
+      <div class="contact-box">
+        <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+        <h2>Let's build something<br><span>useful.</span></h2>
+        <p>Have an idea, a question, or want to work together? Send me a message.</p>
+        <a class="btn primary" href="mailto:salawuabdulhameed1@gmail.com">Email me <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Salawu Abdulhameed. Designed and built with care.</p>
+    <p>Web Development · Software Engineering</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
